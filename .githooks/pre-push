@@ -1,0 +1,4 @@
+#!/bin/sh
+# No se publica código que no pase las pruebas.
+echo "pre-push: ejecutando npm test…"
+npm test --silent > /dev/null 2>&1 || { echo "pre-push: las pruebas fallan; push cancelado." >&2; exit 1; }

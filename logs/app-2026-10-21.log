@@ -1,0 +1,442 @@
+{"ts":"2026-10-21T21:53:58.720Z","level":"INFO","msg":"http","method":"GET","path":"/","status":200,"ms":24}
+{"ts":"2026-10-21T21:53:58.905Z","level":"INFO","msg":"http","method":"GET","path":"/dashboard.html","status":302,"ms":2}
+{"ts":"2026-10-21T21:53:58.911Z","level":"INFO","msg":"http","method":"GET","path":"/favicon.ico","status":404,"ms":3}
+{"ts":"2026-10-21T21:53:58.919Z","level":"INFO","msg":"http","method":"GET","path":"/login.html","status":200,"ms":5}
+{"ts":"2026-10-21T21:53:58.977Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":6}
+{"ts":"2026-10-21T21:53:58.986Z","level":"INFO","msg":"http","method":"GET","path":"/pages/login.js","status":200,"ms":12}
+{"ts":"2026-10-21T21:53:59.018Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":46}
+{"ts":"2026-10-21T21:53:59.078Z","level":"WARN","msg":"rechazo","status":401,"code":"UNAUTHORIZED","motivo":"Inicia sesión para continuar"}
+{"ts":"2026-10-21T21:53:59.086Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":401,"ms":7}
+{"ts":"2026-10-21T21:53:59.137Z","level":"INFO","msg":"http","method":"GET","path":"/favicon.svg","status":200,"ms":9}
+{"ts":"2026-10-21T21:57:26.355Z","level":"INFO","msg":"login","usuario":"admin","rol":"ADMIN"}
+{"ts":"2026-10-21T21:57:26.360Z","level":"INFO","msg":"http","method":"POST","path":"/api/auth/login","status":200,"ms":58}
+{"ts":"2026-10-21T21:57:26.393Z","level":"INFO","msg":"http","method":"GET","path":"/dashboard.html","status":200,"ms":4}
+{"ts":"2026-10-21T21:57:26.453Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":5}
+{"ts":"2026-10-21T21:57:26.460Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":4}
+{"ts":"2026-10-21T21:57:26.465Z","level":"INFO","msg":"http","method":"GET","path":"/pages/dashboard.js","status":200,"ms":9}
+{"ts":"2026-10-21T21:57:26.572Z","level":"INFO","msg":"http","method":"GET","path":"/vendor/jspdf.umd.min.js","status":200,"ms":116}
+{"ts":"2026-10-21T21:57:26.634Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:26.644Z","level":"ERROR","msg":"error no controlado","error":"no such table: venta","stack":"Error: no such table: venta |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:9:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.get (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:9:39)"}
+{"ts":"2026-10-21T21:57:26.650Z","level":"INFO","msg":"http","method":"GET","path":"/api/reportes/dashboard","status":500,"ms":11}
+{"ts":"2026-10-21T21:57:26.655Z","level":"ERROR","msg":"error no controlado","error":"no such table: venta","stack":"Error: no such table: venta |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:26.657Z","level":"INFO","msg":"http","method":"GET","path":"/api/reportes/ventas","status":500,"ms":4}
+{"ts":"2026-10-21T21:57:26.659Z","level":"ERROR","msg":"error no controlado","error":"no such table: insumo","stack":"Error: no such table: insumo |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:26.663Z","level":"INFO","msg":"http","method":"GET","path":"/api/insumos/alertas","status":500,"ms":5}
+{"ts":"2026-10-21T21:57:32.958Z","level":"INFO","msg":"http","method":"GET","path":"/ventas.html","status":200,"ms":2}
+{"ts":"2026-10-21T21:57:33.068Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":2}
+{"ts":"2026-10-21T21:57:33.076Z","level":"INFO","msg":"http","method":"GET","path":"/pages/ventas.js","status":200,"ms":12}
+{"ts":"2026-10-21T21:57:33.082Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":16}
+{"ts":"2026-10-21T21:57:33.094Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:33.105Z","level":"ERROR","msg":"error no controlado","error":"no such table: pieza","stack":"Error: no such table: pieza |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:33.110Z","level":"INFO","msg":"http","method":"GET","path":"/api/piezas","status":500,"ms":13}
+{"ts":"2026-10-21T21:57:33.123Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:33.126Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":5}
+{"ts":"2026-10-21T21:57:33.139Z","level":"ERROR","msg":"error no controlado","error":"no such table: cliente","stack":"Error: no such table: cliente |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:33.157Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":500,"ms":20}
+{"ts":"2026-10-21T21:57:35.174Z","level":"INFO","msg":"http","method":"GET","path":"/encargos.html","status":200,"ms":4}
+{"ts":"2026-10-21T21:57:35.232Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:35.237Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":9}
+{"ts":"2026-10-21T21:57:35.239Z","level":"INFO","msg":"http","method":"GET","path":"/pages/encargos.js","status":200,"ms":11}
+{"ts":"2026-10-21T21:57:35.252Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:35.256Z","level":"ERROR","msg":"error no controlado","error":"no such table: cliente","stack":"Error: no such table: cliente |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:35.258Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":500,"ms":3}
+{"ts":"2026-10-21T21:57:35.263Z","level":"ERROR","msg":"error no controlado","error":"no such table: encargo","stack":"Error: no such table: encargo |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:35.265Z","level":"INFO","msg":"http","method":"GET","path":"/api/encargos","status":500,"ms":3}
+{"ts":"2026-10-21T21:57:35.274Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:35.276Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":2}
+{"ts":"2026-10-21T21:57:35.280Z","level":"ERROR","msg":"error no controlado","error":"no such table: artesano","stack":"Error: no such table: artesano |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:35.288Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":500,"ms":9}
+{"ts":"2026-10-21T21:57:36.388Z","level":"INFO","msg":"http","method":"GET","path":"/insumos.html","status":200,"ms":9}
+{"ts":"2026-10-21T21:57:36.444Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:36.448Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":5}
+{"ts":"2026-10-21T21:57:36.449Z","level":"INFO","msg":"http","method":"GET","path":"/pages/insumos.js","status":200,"ms":6}
+{"ts":"2026-10-21T21:57:36.460Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:36.465Z","level":"ERROR","msg":"error no controlado","error":"no such table: insumo","stack":"Error: no such table: insumo |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:36.467Z","level":"INFO","msg":"http","method":"GET","path":"/api/insumos","status":500,"ms":4}
+{"ts":"2026-10-21T21:57:36.474Z","level":"ERROR","msg":"error no controlado","error":"no such table: proveedor","stack":"Error: no such table: proveedor |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:36.475Z","level":"INFO","msg":"http","method":"GET","path":"/api/proveedores","status":500,"ms":4}
+{"ts":"2026-10-21T21:57:36.478Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:36.480Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":3}
+{"ts":"2026-10-21T21:57:37.174Z","level":"INFO","msg":"http","method":"GET","path":"/produccion.html","status":200,"ms":5}
+{"ts":"2026-10-21T21:57:37.229Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:37.232Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":5}
+{"ts":"2026-10-21T21:57:37.235Z","level":"INFO","msg":"http","method":"GET","path":"/pages/produccion.js","status":200,"ms":8}
+{"ts":"2026-10-21T21:57:37.248Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:37.256Z","level":"ERROR","msg":"error no controlado","error":"no such table: pieza","stack":"Error: no such table: pieza |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:37.260Z","level":"INFO","msg":"http","method":"GET","path":"/api/piezas","status":500,"ms":6}
+{"ts":"2026-10-21T21:57:37.265Z","level":"ERROR","msg":"error no controlado","error":"no such table: produccion_pieza","stack":"Error: no such table: produccion_pieza |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:37.277Z","level":"INFO","msg":"http","method":"GET","path":"/api/produccion","status":500,"ms":13}
+{"ts":"2026-10-21T21:57:37.281Z","level":"ERROR","msg":"error no controlado","error":"no such table: artesano","stack":"Error: no such table: artesano |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:37.290Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":500,"ms":9}
+{"ts":"2026-10-21T21:57:37.306Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:37.315Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":18}
+{"ts":"2026-10-21T21:57:37.936Z","level":"INFO","msg":"http","method":"GET","path":"/clientes.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:37.985Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:37.990Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":6}
+{"ts":"2026-10-21T21:57:38.015Z","level":"INFO","msg":"http","method":"GET","path":"/pages/clientes.js","status":200,"ms":31}
+{"ts":"2026-10-21T21:57:38.025Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:38.032Z","level":"ERROR","msg":"error no controlado","error":"no such table: cliente","stack":"Error: no such table: cliente |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:38.039Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":500,"ms":8}
+{"ts":"2026-10-21T21:57:38.811Z","level":"INFO","msg":"http","method":"GET","path":"/clientes.html","status":200,"ms":4}
+{"ts":"2026-10-21T21:57:38.877Z","level":"INFO","msg":"http","method":"GET","path":"/pages/clientes.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:38.879Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":6}
+{"ts":"2026-10-21T21:57:38.883Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":8}
+{"ts":"2026-10-21T21:57:38.894Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":0}
+{"ts":"2026-10-21T21:57:38.897Z","level":"ERROR","msg":"error no controlado","error":"no such table: cliente","stack":"Error: no such table: cliente |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:38.899Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":500,"ms":2}
+{"ts":"2026-10-21T21:57:39.439Z","level":"INFO","msg":"http","method":"GET","path":"/artesanos.html","status":200,"ms":4}
+{"ts":"2026-10-21T21:57:39.488Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:39.494Z","level":"INFO","msg":"http","method":"GET","path":"/pages/artesanos.js","status":200,"ms":7}
+{"ts":"2026-10-21T21:57:39.496Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":9}
+{"ts":"2026-10-21T21:57:39.506Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:39.510Z","level":"ERROR","msg":"error no controlado","error":"no such table: artesano","stack":"Error: no such table: artesano |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:39.512Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":500,"ms":3}
+{"ts":"2026-10-21T21:57:39.516Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:39.523Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":8}
+{"ts":"2026-10-21T21:57:39.930Z","level":"INFO","msg":"http","method":"GET","path":"/proveedores.html","status":200,"ms":2}
+{"ts":"2026-10-21T21:57:39.990Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":4}
+{"ts":"2026-10-21T21:57:39.993Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:39.996Z","level":"INFO","msg":"http","method":"GET","path":"/pages/proveedores.js","status":200,"ms":7}
+{"ts":"2026-10-21T21:57:40.005Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:40.008Z","level":"ERROR","msg":"error no controlado","error":"no such table: proveedor","stack":"Error: no such table: proveedor |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:40.011Z","level":"INFO","msg":"http","method":"GET","path":"/api/proveedores","status":500,"ms":3}
+{"ts":"2026-10-21T21:57:50.973Z","level":"INFO","msg":"http","method":"GET","path":"/artesanos.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:51.040Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":4}
+{"ts":"2026-10-21T21:57:51.043Z","level":"INFO","msg":"http","method":"GET","path":"/pages/artesanos.js","status":200,"ms":5}
+{"ts":"2026-10-21T21:57:51.049Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":11}
+{"ts":"2026-10-21T21:57:51.060Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":0}
+{"ts":"2026-10-21T21:57:51.066Z","level":"ERROR","msg":"error no controlado","error":"no such table: artesano","stack":"Error: no such table: artesano |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:51.068Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":500,"ms":2}
+{"ts":"2026-10-21T21:57:51.072Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:51.075Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":4}
+{"ts":"2026-10-21T21:57:51.570Z","level":"INFO","msg":"http","method":"GET","path":"/clientes.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:51.626Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:51.628Z","level":"INFO","msg":"http","method":"GET","path":"/pages/clientes.js","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:51.633Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":9}
+{"ts":"2026-10-21T21:57:51.643Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:51.646Z","level":"ERROR","msg":"error no controlado","error":"no such table: cliente","stack":"Error: no such table: cliente |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:51.650Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":500,"ms":5}
+{"ts":"2026-10-21T21:57:52.101Z","level":"INFO","msg":"http","method":"GET","path":"/produccion.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:52.163Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:52.168Z","level":"INFO","msg":"http","method":"GET","path":"/pages/produccion.js","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:52.169Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":10}
+{"ts":"2026-10-21T21:57:52.186Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:52.190Z","level":"ERROR","msg":"error no controlado","error":"no such table: produccion_pieza","stack":"Error: no such table: produccion_pieza |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:52.193Z","level":"INFO","msg":"http","method":"GET","path":"/api/produccion","status":500,"ms":5}
+{"ts":"2026-10-21T21:57:52.207Z","level":"ERROR","msg":"error no controlado","error":"no such table: pieza","stack":"Error: no such table: pieza |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:52.208Z","level":"INFO","msg":"http","method":"GET","path":"/api/piezas","status":500,"ms":4}
+{"ts":"2026-10-21T21:57:52.213Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:52.219Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":8}
+{"ts":"2026-10-21T21:57:52.224Z","level":"ERROR","msg":"error no controlado","error":"no such table: artesano","stack":"Error: no such table: artesano |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:52.228Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":500,"ms":6}
+{"ts":"2026-10-21T21:57:52.668Z","level":"INFO","msg":"http","method":"GET","path":"/insumos.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:52.734Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:52.736Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":6}
+{"ts":"2026-10-21T21:57:52.739Z","level":"INFO","msg":"http","method":"GET","path":"/pages/insumos.js","status":200,"ms":6}
+{"ts":"2026-10-21T21:57:52.749Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:52.752Z","level":"ERROR","msg":"error no controlado","error":"no such table: insumo","stack":"Error: no such table: insumo |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:52.757Z","level":"INFO","msg":"http","method":"GET","path":"/api/insumos","status":500,"ms":5}
+{"ts":"2026-10-21T21:57:52.766Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:52.768Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":3}
+{"ts":"2026-10-21T21:57:52.774Z","level":"ERROR","msg":"error no controlado","error":"no such table: proveedor","stack":"Error: no such table: proveedor |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:52.775Z","level":"INFO","msg":"http","method":"GET","path":"/api/proveedores","status":500,"ms":4}
+{"ts":"2026-10-21T21:57:53.460Z","level":"INFO","msg":"http","method":"GET","path":"/encargos.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:53.516Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":2}
+{"ts":"2026-10-21T21:57:53.518Z","level":"INFO","msg":"http","method":"GET","path":"/pages/encargos.js","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:53.523Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":11}
+{"ts":"2026-10-21T21:57:53.533Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:53.537Z","level":"ERROR","msg":"error no controlado","error":"no such table: cliente","stack":"Error: no such table: cliente |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:53.540Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":500,"ms":4}
+{"ts":"2026-10-21T21:57:53.546Z","level":"ERROR","msg":"error no controlado","error":"no such table: encargo","stack":"Error: no such table: encargo |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:53.550Z","level":"INFO","msg":"http","method":"GET","path":"/api/encargos","status":500,"ms":6}
+{"ts":"2026-10-21T21:57:53.552Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:53.555Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":3}
+{"ts":"2026-10-21T21:57:53.557Z","level":"ERROR","msg":"error no controlado","error":"no such table: artesano","stack":"Error: no such table: artesano |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:53.558Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":500,"ms":2}
+{"ts":"2026-10-21T21:57:54.005Z","level":"INFO","msg":"http","method":"GET","path":"/ventas.html","status":200,"ms":2}
+{"ts":"2026-10-21T21:57:54.060Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:54.067Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":10}
+{"ts":"2026-10-21T21:57:54.069Z","level":"INFO","msg":"http","method":"GET","path":"/pages/ventas.js","status":200,"ms":9}
+{"ts":"2026-10-21T21:57:54.078Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":0}
+{"ts":"2026-10-21T21:57:54.082Z","level":"ERROR","msg":"error no controlado","error":"no such table: pieza","stack":"Error: no such table: pieza |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:54.084Z","level":"INFO","msg":"http","method":"GET","path":"/api/piezas","status":500,"ms":3}
+{"ts":"2026-10-21T21:57:54.087Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:54.088Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":2}
+{"ts":"2026-10-21T21:57:54.091Z","level":"ERROR","msg":"error no controlado","error":"no such table: cliente","stack":"Error: no such table: cliente |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:54.096Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":500,"ms":6}
+{"ts":"2026-10-21T21:57:55.592Z","level":"INFO","msg":"http","method":"GET","path":"/dashboard.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:55.649Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":4}
+{"ts":"2026-10-21T21:57:55.652Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":4}
+{"ts":"2026-10-21T21:57:55.655Z","level":"INFO","msg":"http","method":"GET","path":"/pages/dashboard.js","status":200,"ms":7}
+{"ts":"2026-10-21T21:57:55.658Z","level":"INFO","msg":"http","method":"GET","path":"/vendor/jspdf.umd.min.js","status":200,"ms":11}
+{"ts":"2026-10-21T21:57:55.687Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:55.692Z","level":"ERROR","msg":"error no controlado","error":"no such table: venta","stack":"Error: no such table: venta |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:9:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.get (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:9:39)"}
+{"ts":"2026-10-21T21:57:55.696Z","level":"INFO","msg":"http","method":"GET","path":"/api/reportes/dashboard","status":500,"ms":6}
+{"ts":"2026-10-21T21:57:55.704Z","level":"ERROR","msg":"error no controlado","error":"no such table: venta","stack":"Error: no such table: venta |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:55.706Z","level":"INFO","msg":"http","method":"GET","path":"/api/reportes/ventas","status":500,"ms":5}
+{"ts":"2026-10-21T21:57:55.708Z","level":"ERROR","msg":"error no controlado","error":"no such table: insumo","stack":"Error: no such table: insumo |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:57:55.709Z","level":"INFO","msg":"http","method":"GET","path":"/api/insumos/alertas","status":500,"ms":2}
+{"ts":"2026-10-21T21:57:57.263Z","level":"INFO","msg":"http","method":"POST","path":"/api/auth/logout","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:57.293Z","level":"INFO","msg":"http","method":"GET","path":"/login.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:57:57.355Z","level":"INFO","msg":"http","method":"GET","path":"/pages/login.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:57:57.357Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":4}
+{"ts":"2026-10-21T21:57:57.361Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":12}
+{"ts":"2026-10-21T21:57:57.368Z","level":"WARN","msg":"rechazo","status":401,"code":"UNAUTHORIZED","motivo":"Inicia sesión para continuar"}
+{"ts":"2026-10-21T21:57:57.371Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":401,"ms":3}
+{"ts":"2026-10-21T21:58:08.615Z","level":"INFO","msg":"login","usuario":"operador","rol":"OPERADOR"}
+{"ts":"2026-10-21T21:58:08.617Z","level":"INFO","msg":"http","method":"POST","path":"/api/auth/login","status":200,"ms":47}
+{"ts":"2026-10-21T21:58:08.646Z","level":"INFO","msg":"http","method":"GET","path":"/dashboard.html","status":200,"ms":4}
+{"ts":"2026-10-21T21:58:08.708Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":8}
+{"ts":"2026-10-21T21:58:08.715Z","level":"INFO","msg":"http","method":"GET","path":"/vendor/jspdf.umd.min.js","status":200,"ms":11}
+{"ts":"2026-10-21T21:58:08.718Z","level":"INFO","msg":"http","method":"GET","path":"/pages/dashboard.js","status":200,"ms":4}
+{"ts":"2026-10-21T21:58:08.721Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":7}
+{"ts":"2026-10-21T21:58:08.753Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":2}
+{"ts":"2026-10-21T21:58:08.757Z","level":"ERROR","msg":"error no controlado","error":"no such table: venta","stack":"Error: no such table: venta |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:9:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.get (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:9:39)"}
+{"ts":"2026-10-21T21:58:08.758Z","level":"INFO","msg":"http","method":"GET","path":"/api/reportes/dashboard","status":500,"ms":2}
+{"ts":"2026-10-21T21:58:08.766Z","level":"ERROR","msg":"error no controlado","error":"no such table: venta","stack":"Error: no such table: venta |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:08.771Z","level":"INFO","msg":"http","method":"GET","path":"/api/reportes/ventas","status":500,"ms":6}
+{"ts":"2026-10-21T21:58:08.774Z","level":"ERROR","msg":"error no controlado","error":"no such table: insumo","stack":"Error: no such table: insumo |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:08.791Z","level":"INFO","msg":"http","method":"GET","path":"/api/insumos/alertas","status":500,"ms":19}
+{"ts":"2026-10-21T21:58:11.875Z","level":"INFO","msg":"http","method":"GET","path":"/ventas.html","status":200,"ms":9}
+{"ts":"2026-10-21T21:58:11.930Z","level":"INFO","msg":"http","method":"GET","path":"/pages/ventas.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:11.935Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":8}
+{"ts":"2026-10-21T21:58:11.938Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":9}
+{"ts":"2026-10-21T21:58:11.949Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":0}
+{"ts":"2026-10-21T21:58:11.953Z","level":"ERROR","msg":"error no controlado","error":"no such table: pieza","stack":"Error: no such table: pieza |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:11.955Z","level":"INFO","msg":"http","method":"GET","path":"/api/piezas","status":500,"ms":3}
+{"ts":"2026-10-21T21:58:11.959Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:11.961Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":3}
+{"ts":"2026-10-21T21:58:11.965Z","level":"ERROR","msg":"error no controlado","error":"no such table: cliente","stack":"Error: no such table: cliente |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:11.966Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":500,"ms":2}
+{"ts":"2026-10-21T21:58:12.597Z","level":"INFO","msg":"http","method":"GET","path":"/encargos.html","status":200,"ms":4}
+{"ts":"2026-10-21T21:58:12.652Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:12.653Z","level":"INFO","msg":"http","method":"GET","path":"/pages/encargos.js","status":200,"ms":2}
+{"ts":"2026-10-21T21:58:12.657Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":8}
+{"ts":"2026-10-21T21:58:12.667Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":0}
+{"ts":"2026-10-21T21:58:12.672Z","level":"ERROR","msg":"error no controlado","error":"no such table: encargo","stack":"Error: no such table: encargo |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:12.676Z","level":"INFO","msg":"http","method":"GET","path":"/api/encargos","status":500,"ms":7}
+{"ts":"2026-10-21T21:58:12.683Z","level":"ERROR","msg":"error no controlado","error":"no such table: cliente","stack":"Error: no such table: cliente |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:12.684Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":500,"ms":2}
+{"ts":"2026-10-21T21:58:12.687Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:12.689Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":4}
+{"ts":"2026-10-21T21:58:12.691Z","level":"ERROR","msg":"error no controlado","error":"no such table: artesano","stack":"Error: no such table: artesano |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:12.696Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":500,"ms":5}
+{"ts":"2026-10-21T21:58:14.103Z","level":"INFO","msg":"http","method":"GET","path":"/insumos.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:58:14.172Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:14.174Z","level":"INFO","msg":"http","method":"GET","path":"/pages/insumos.js","status":200,"ms":2}
+{"ts":"2026-10-21T21:58:14.185Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":14}
+{"ts":"2026-10-21T21:58:14.213Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":9}
+{"ts":"2026-10-21T21:58:14.239Z","level":"ERROR","msg":"error no controlado","error":"no such table: insumo","stack":"Error: no such table: insumo |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:14.274Z","level":"INFO","msg":"http","method":"GET","path":"/api/insumos","status":500,"ms":40}
+{"ts":"2026-10-21T21:58:14.278Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:14.281Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":4}
+{"ts":"2026-10-21T21:58:14.286Z","level":"ERROR","msg":"error no controlado","error":"no such table: proveedor","stack":"Error: no such table: proveedor |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:14.289Z","level":"INFO","msg":"http","method":"GET","path":"/api/proveedores","status":500,"ms":4}
+{"ts":"2026-10-21T21:58:14.631Z","level":"INFO","msg":"http","method":"GET","path":"/produccion.html","status":200,"ms":4}
+{"ts":"2026-10-21T21:58:14.690Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:14.694Z","level":"INFO","msg":"http","method":"GET","path":"/pages/produccion.js","status":200,"ms":5}
+{"ts":"2026-10-21T21:58:14.699Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":11}
+{"ts":"2026-10-21T21:58:14.709Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:14.713Z","level":"ERROR","msg":"error no controlado","error":"no such table: produccion_pieza","stack":"Error: no such table: produccion_pieza |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:14.716Z","level":"INFO","msg":"http","method":"GET","path":"/api/produccion","status":500,"ms":4}
+{"ts":"2026-10-21T21:58:14.722Z","level":"ERROR","msg":"error no controlado","error":"no such table: pieza","stack":"Error: no such table: pieza |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:14.727Z","level":"INFO","msg":"http","method":"GET","path":"/api/piezas","status":500,"ms":6}
+{"ts":"2026-10-21T21:58:14.735Z","level":"ERROR","msg":"error no controlado","error":"no such table: artesano","stack":"Error: no such table: artesano |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:14.740Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":500,"ms":6}
+{"ts":"2026-10-21T21:58:14.747Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:14.776Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":30}
+{"ts":"2026-10-21T21:58:15.702Z","level":"INFO","msg":"http","method":"GET","path":"/clientes.html","status":200,"ms":2}
+{"ts":"2026-10-21T21:58:15.769Z","level":"INFO","msg":"http","method":"GET","path":"/pages/clientes.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:15.771Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":4}
+{"ts":"2026-10-21T21:58:15.776Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":10}
+{"ts":"2026-10-21T21:58:15.790Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:15.797Z","level":"ERROR","msg":"error no controlado","error":"no such table: cliente","stack":"Error: no such table: cliente |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:15.805Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":500,"ms":9}
+{"ts":"2026-10-21T21:58:16.366Z","level":"INFO","msg":"http","method":"GET","path":"/artesanos.html","status":200,"ms":4}
+{"ts":"2026-10-21T21:58:16.424Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":3}
+{"ts":"2026-10-21T21:58:16.425Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":2}
+{"ts":"2026-10-21T21:58:16.426Z","level":"INFO","msg":"http","method":"GET","path":"/pages/artesanos.js","status":200,"ms":3}
+{"ts":"2026-10-21T21:58:16.444Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:16.447Z","level":"ERROR","msg":"error no controlado","error":"no such table: artesano","stack":"Error: no such table: artesano |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:16.451Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":500,"ms":4}
+{"ts":"2026-10-21T21:58:16.453Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:16.456Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":3}
+{"ts":"2026-10-21T21:58:40.681Z","level":"INFO","msg":"http","method":"POST","path":"/api/auth/logout","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:40.706Z","level":"INFO","msg":"http","method":"GET","path":"/login.html","status":200,"ms":2}
+{"ts":"2026-10-21T21:58:40.770Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":5}
+{"ts":"2026-10-21T21:58:40.777Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":2}
+{"ts":"2026-10-21T21:58:40.781Z","level":"INFO","msg":"http","method":"GET","path":"/pages/login.js","status":200,"ms":5}
+{"ts":"2026-10-21T21:58:40.805Z","level":"WARN","msg":"rechazo","status":401,"code":"UNAUTHORIZED","motivo":"Inicia sesión para continuar"}
+{"ts":"2026-10-21T21:58:40.808Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":401,"ms":4}
+{"ts":"2026-10-21T21:58:45.853Z","level":"INFO","msg":"login","usuario":"consulta","rol":"CONSULTA"}
+{"ts":"2026-10-21T21:58:45.856Z","level":"INFO","msg":"http","method":"POST","path":"/api/auth/login","status":200,"ms":46}
+{"ts":"2026-10-21T21:58:45.884Z","level":"INFO","msg":"http","method":"GET","path":"/dashboard.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:58:45.942Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":5}
+{"ts":"2026-10-21T21:58:45.946Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":5}
+{"ts":"2026-10-21T21:58:45.951Z","level":"INFO","msg":"http","method":"GET","path":"/vendor/jspdf.umd.min.js","status":200,"ms":10}
+{"ts":"2026-10-21T21:58:45.952Z","level":"INFO","msg":"http","method":"GET","path":"/pages/dashboard.js","status":200,"ms":3}
+{"ts":"2026-10-21T21:58:45.994Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:46.001Z","level":"ERROR","msg":"error no controlado","error":"no such table: venta","stack":"Error: no such table: venta |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:9:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.get (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:9:39)"}
+{"ts":"2026-10-21T21:58:46.009Z","level":"INFO","msg":"http","method":"GET","path":"/api/reportes/dashboard","status":500,"ms":10}
+{"ts":"2026-10-21T21:58:46.015Z","level":"ERROR","msg":"error no controlado","error":"no such table: venta","stack":"Error: no such table: venta |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:46.017Z","level":"INFO","msg":"http","method":"GET","path":"/api/reportes/ventas","status":500,"ms":4}
+{"ts":"2026-10-21T21:58:46.019Z","level":"ERROR","msg":"error no controlado","error":"no such table: insumo","stack":"Error: no such table: insumo |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:46.021Z","level":"INFO","msg":"http","method":"GET","path":"/api/insumos/alertas","status":500,"ms":3}
+{"ts":"2026-10-21T21:58:48.998Z","level":"INFO","msg":"http","method":"GET","path":"/ventas.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:58:49.072Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":2}
+{"ts":"2026-10-21T21:58:49.078Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":10}
+{"ts":"2026-10-21T21:58:49.082Z","level":"INFO","msg":"http","method":"GET","path":"/pages/ventas.js","status":200,"ms":7}
+{"ts":"2026-10-21T21:58:49.094Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":2}
+{"ts":"2026-10-21T21:58:49.097Z","level":"ERROR","msg":"error no controlado","error":"no such table: pieza","stack":"Error: no such table: pieza |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:49.106Z","level":"INFO","msg":"http","method":"GET","path":"/api/piezas","status":500,"ms":9}
+{"ts":"2026-10-21T21:58:49.116Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:49.119Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":4}
+{"ts":"2026-10-21T21:58:49.130Z","level":"ERROR","msg":"error no controlado","error":"no such table: cliente","stack":"Error: no such table: cliente |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:49.139Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":500,"ms":10}
+{"ts":"2026-10-21T21:58:49.819Z","level":"INFO","msg":"http","method":"GET","path":"/encargos.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:58:49.873Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:49.876Z","level":"INFO","msg":"http","method":"GET","path":"/pages/encargos.js","status":200,"ms":4}
+{"ts":"2026-10-21T21:58:49.879Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":9}
+{"ts":"2026-10-21T21:58:49.893Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:49.897Z","level":"ERROR","msg":"error no controlado","error":"no such table: encargo","stack":"Error: no such table: encargo |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:49.899Z","level":"INFO","msg":"http","method":"GET","path":"/api/encargos","status":500,"ms":3}
+{"ts":"2026-10-21T21:58:49.904Z","level":"ERROR","msg":"error no controlado","error":"no such table: cliente","stack":"Error: no such table: cliente |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:49.910Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":500,"ms":8}
+{"ts":"2026-10-21T21:58:49.915Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:49.916Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":2}
+{"ts":"2026-10-21T21:58:49.918Z","level":"ERROR","msg":"error no controlado","error":"no such table: artesano","stack":"Error: no such table: artesano |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:49.920Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":500,"ms":3}
+{"ts":"2026-10-21T21:58:51.115Z","level":"INFO","msg":"http","method":"GET","path":"/insumos.html","status":200,"ms":2}
+{"ts":"2026-10-21T21:58:51.183Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":3}
+{"ts":"2026-10-21T21:58:51.185Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":8}
+{"ts":"2026-10-21T21:58:51.189Z","level":"INFO","msg":"http","method":"GET","path":"/pages/insumos.js","status":200,"ms":7}
+{"ts":"2026-10-21T21:58:51.203Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":0}
+{"ts":"2026-10-21T21:58:51.216Z","level":"ERROR","msg":"error no controlado","error":"no such table: insumo","stack":"Error: no such table: insumo |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:51.218Z","level":"INFO","msg":"http","method":"GET","path":"/api/insumos","status":500,"ms":10}
+{"ts":"2026-10-21T21:58:51.223Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:51.234Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":13}
+{"ts":"2026-10-21T21:58:51.250Z","level":"ERROR","msg":"error no controlado","error":"no such table: proveedor","stack":"Error: no such table: proveedor |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:51.256Z","level":"INFO","msg":"http","method":"GET","path":"/api/proveedores","status":500,"ms":8}
+{"ts":"2026-10-21T21:58:51.672Z","level":"INFO","msg":"http","method":"GET","path":"/produccion.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:58:51.729Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":2}
+{"ts":"2026-10-21T21:58:51.731Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":7}
+{"ts":"2026-10-21T21:58:51.738Z","level":"INFO","msg":"http","method":"GET","path":"/pages/produccion.js","status":200,"ms":11}
+{"ts":"2026-10-21T21:58:51.750Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":0}
+{"ts":"2026-10-21T21:58:51.758Z","level":"ERROR","msg":"error no controlado","error":"no such table: produccion_pieza","stack":"Error: no such table: produccion_pieza |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:51.763Z","level":"INFO","msg":"http","method":"GET","path":"/api/produccion","status":500,"ms":7}
+{"ts":"2026-10-21T21:58:51.767Z","level":"ERROR","msg":"error no controlado","error":"no such table: pieza","stack":"Error: no such table: pieza |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:51.768Z","level":"INFO","msg":"http","method":"GET","path":"/api/piezas","status":500,"ms":1}
+{"ts":"2026-10-21T21:58:51.770Z","level":"ERROR","msg":"error no controlado","error":"no such table: artesano","stack":"Error: no such table: artesano |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:51.772Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":500,"ms":2}
+{"ts":"2026-10-21T21:58:51.787Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:51.791Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":8}
+{"ts":"2026-10-21T21:58:53.340Z","level":"INFO","msg":"http","method":"GET","path":"/clientes.html","status":200,"ms":4}
+{"ts":"2026-10-21T21:58:53.418Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":3}
+{"ts":"2026-10-21T21:58:53.419Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":8}
+{"ts":"2026-10-21T21:58:53.423Z","level":"INFO","msg":"http","method":"GET","path":"/pages/clientes.js","status":200,"ms":6}
+{"ts":"2026-10-21T21:58:53.435Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:53.437Z","level":"ERROR","msg":"error no controlado","error":"no such table: cliente","stack":"Error: no such table: cliente |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:53.438Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":500,"ms":2}
+{"ts":"2026-10-21T21:58:53.972Z","level":"INFO","msg":"http","method":"GET","path":"/artesanos.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:58:54.056Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:54.057Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":3}
+{"ts":"2026-10-21T21:58:54.063Z","level":"INFO","msg":"http","method":"GET","path":"/pages/artesanos.js","status":200,"ms":8}
+{"ts":"2026-10-21T21:58:54.077Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:54.083Z","level":"ERROR","msg":"error no controlado","error":"no such table: artesano","stack":"Error: no such table: artesano |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:54.084Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":500,"ms":2}
+{"ts":"2026-10-21T21:58:54.087Z","level":"ERROR","msg":"error no controlado","error":"no such table: taller","stack":"Error: no such table: taller |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:54.090Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":500,"ms":3}
+{"ts":"2026-10-21T21:58:54.521Z","level":"INFO","msg":"http","method":"GET","path":"/proveedores.html","status":200,"ms":3}
+{"ts":"2026-10-21T21:58:54.578Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:54.583Z","level":"INFO","msg":"http","method":"GET","path":"/pages/proveedores.js","status":200,"ms":6}
+{"ts":"2026-10-21T21:58:54.586Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":9}
+{"ts":"2026-10-21T21:58:54.596Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T21:58:54.599Z","level":"ERROR","msg":"error no controlado","error":"no such table: proveedor","stack":"Error: no such table: proveedor |     at C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:55 |     at #exec (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:21:18) |     at Database.all (C:\\Users\\next_\\Desktop\\repo\\src\\config\\database.js:8:39)"}
+{"ts":"2026-10-21T21:58:54.601Z","level":"INFO","msg":"http","method":"GET","path":"/api/proveedores","status":500,"ms":3}
+{"ts":"2026-10-21T22:03:48.665Z","level":"INFO","msg":"http","method":"GET","path":"/proveedores.html","status":302,"ms":9}
+{"ts":"2026-10-21T22:03:48.680Z","level":"INFO","msg":"http","method":"GET","path":"/login.html","status":200,"ms":7}
+{"ts":"2026-10-21T22:03:48.777Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":10}
+{"ts":"2026-10-21T22:03:48.783Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":10}
+{"ts":"2026-10-21T22:03:48.787Z","level":"INFO","msg":"http","method":"GET","path":"/pages/login.js","status":200,"ms":12}
+{"ts":"2026-10-21T22:03:48.907Z","level":"WARN","msg":"rechazo","status":401,"code":"UNAUTHORIZED","motivo":"Inicia sesión para continuar"}
+{"ts":"2026-10-21T22:03:48.911Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":401,"ms":4}
+{"ts":"2026-10-21T22:03:49.020Z","level":"INFO","msg":"http","method":"GET","path":"/favicon.svg","status":200,"ms":3}
+{"ts":"2026-10-21T22:03:59.827Z","level":"INFO","msg":"http","method":"GET","path":"/","status":200,"ms":11}
+{"ts":"2026-10-21T22:04:00.091Z","level":"INFO","msg":"http","method":"GET","path":"/dashboard.html","status":302,"ms":1}
+{"ts":"2026-10-21T22:04:00.109Z","level":"INFO","msg":"http","method":"GET","path":"/login.html","status":200,"ms":9}
+{"ts":"2026-10-21T22:04:00.227Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":9}
+{"ts":"2026-10-21T22:04:00.233Z","level":"INFO","msg":"http","method":"GET","path":"/pages/login.js","status":200,"ms":7}
+{"ts":"2026-10-21T22:04:00.240Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":15}
+{"ts":"2026-10-21T22:04:00.348Z","level":"WARN","msg":"rechazo","status":401,"code":"UNAUTHORIZED","motivo":"Inicia sesión para continuar"}
+{"ts":"2026-10-21T22:04:00.353Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":401,"ms":5}
+{"ts":"2026-10-21T22:04:09.393Z","level":"INFO","msg":"login","usuario":"admin","rol":"ADMIN"}
+{"ts":"2026-10-21T22:04:09.396Z","level":"INFO","msg":"http","method":"POST","path":"/api/auth/login","status":200,"ms":48}
+{"ts":"2026-10-21T22:04:09.426Z","level":"INFO","msg":"http","method":"GET","path":"/dashboard.html","status":200,"ms":4}
+{"ts":"2026-10-21T22:04:09.485Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":4}
+{"ts":"2026-10-21T22:04:09.488Z","level":"INFO","msg":"http","method":"GET","path":"/pages/dashboard.js","status":200,"ms":2}
+{"ts":"2026-10-21T22:04:09.493Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":6}
+{"ts":"2026-10-21T22:04:09.497Z","level":"INFO","msg":"http","method":"GET","path":"/vendor/jspdf.umd.min.js","status":200,"ms":10}
+{"ts":"2026-10-21T22:04:09.525Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T22:04:09.534Z","level":"INFO","msg":"http","method":"GET","path":"/api/reportes/dashboard","status":200,"ms":4}
+{"ts":"2026-10-21T22:04:09.537Z","level":"INFO","msg":"http","method":"GET","path":"/api/reportes/ventas","status":200,"ms":2}
+{"ts":"2026-10-21T22:04:09.539Z","level":"INFO","msg":"http","method":"GET","path":"/api/insumos/alertas","status":200,"ms":1}
+{"ts":"2026-10-21T22:04:16.701Z","level":"INFO","msg":"http","method":"GET","path":"/ventas.html","status":200,"ms":4}
+{"ts":"2026-10-21T22:04:16.756Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T22:04:16.759Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":6}
+{"ts":"2026-10-21T22:04:16.761Z","level":"INFO","msg":"http","method":"GET","path":"/pages/ventas.js","status":200,"ms":4}
+{"ts":"2026-10-21T22:04:16.773Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":2}
+{"ts":"2026-10-21T22:04:16.776Z","level":"INFO","msg":"http","method":"GET","path":"/api/piezas","status":200,"ms":2}
+{"ts":"2026-10-21T22:04:16.779Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":200,"ms":2}
+{"ts":"2026-10-21T22:04:16.783Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":200,"ms":3}
+{"ts":"2026-10-21T22:04:18.068Z","level":"INFO","msg":"http","method":"GET","path":"/encargos.html","status":200,"ms":6}
+{"ts":"2026-10-21T22:04:18.133Z","level":"INFO","msg":"http","method":"GET","path":"/pages/encargos.js","status":200,"ms":1}
+{"ts":"2026-10-21T22:04:18.138Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":6}
+{"ts":"2026-10-21T22:04:18.141Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":11}
+{"ts":"2026-10-21T22:04:18.152Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":0}
+{"ts":"2026-10-21T22:04:18.172Z","level":"INFO","msg":"http","method":"GET","path":"/api/encargos","status":200,"ms":13}
+{"ts":"2026-10-21T22:04:18.196Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":200,"ms":6}
+{"ts":"2026-10-21T22:04:18.224Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":200,"ms":10}
+{"ts":"2026-10-21T22:04:18.230Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":200,"ms":2}
+{"ts":"2026-10-21T22:04:23.282Z","level":"INFO","msg":"http","method":"GET","path":"/insumos.html","status":200,"ms":5}
+{"ts":"2026-10-21T22:04:23.358Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":2}
+{"ts":"2026-10-21T22:04:23.362Z","level":"INFO","msg":"http","method":"GET","path":"/pages/insumos.js","status":200,"ms":6}
+{"ts":"2026-10-21T22:04:23.365Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":10}
+{"ts":"2026-10-21T22:04:23.380Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T22:04:23.388Z","level":"INFO","msg":"http","method":"GET","path":"/api/insumos","status":200,"ms":3}
+{"ts":"2026-10-21T22:04:23.392Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":200,"ms":2}
+{"ts":"2026-10-21T22:04:23.399Z","level":"INFO","msg":"http","method":"GET","path":"/api/proveedores","status":200,"ms":3}
+{"ts":"2026-10-21T22:04:24.354Z","level":"INFO","msg":"http","method":"GET","path":"/produccion.html","status":200,"ms":4}
+{"ts":"2026-10-21T22:04:24.406Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T22:04:24.408Z","level":"INFO","msg":"http","method":"GET","path":"/pages/produccion.js","status":200,"ms":3}
+{"ts":"2026-10-21T22:04:24.411Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":6}
+{"ts":"2026-10-21T22:04:24.420Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":0}
+{"ts":"2026-10-21T22:04:24.426Z","level":"INFO","msg":"http","method":"GET","path":"/api/produccion","status":200,"ms":2}
+{"ts":"2026-10-21T22:04:24.429Z","level":"INFO","msg":"http","method":"GET","path":"/api/piezas","status":200,"ms":1}
+{"ts":"2026-10-21T22:04:24.432Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":200,"ms":1}
+{"ts":"2026-10-21T22:04:24.441Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":200,"ms":3}
+{"ts":"2026-10-21T22:04:27.095Z","level":"INFO","msg":"http","method":"GET","path":"/clientes.html","status":200,"ms":2}
+{"ts":"2026-10-21T22:04:27.159Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":6}
+{"ts":"2026-10-21T22:04:27.164Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":10}
+{"ts":"2026-10-21T22:04:27.169Z","level":"INFO","msg":"http","method":"GET","path":"/pages/clientes.js","status":200,"ms":14}
+{"ts":"2026-10-21T22:04:27.181Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":0}
+{"ts":"2026-10-21T22:04:27.187Z","level":"INFO","msg":"http","method":"GET","path":"/api/clientes","status":200,"ms":1}
+{"ts":"2026-10-21T22:04:27.712Z","level":"INFO","msg":"http","method":"GET","path":"/artesanos.html","status":200,"ms":4}
+{"ts":"2026-10-21T22:04:27.761Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":2}
+{"ts":"2026-10-21T22:04:27.763Z","level":"INFO","msg":"http","method":"GET","path":"/pages/artesanos.js","status":200,"ms":3}
+{"ts":"2026-10-21T22:04:27.766Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":7}
+{"ts":"2026-10-21T22:04:27.776Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":1}
+{"ts":"2026-10-21T22:04:27.780Z","level":"INFO","msg":"http","method":"GET","path":"/api/artesanos","status":200,"ms":1}
+{"ts":"2026-10-21T22:04:27.784Z","level":"INFO","msg":"http","method":"GET","path":"/api/talleres","status":200,"ms":1}
+{"ts":"2026-10-21T22:04:28.282Z","level":"INFO","msg":"http","method":"GET","path":"/proveedores.html","status":200,"ms":3}
+{"ts":"2026-10-21T22:04:28.337Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":1}
+{"ts":"2026-10-21T22:04:28.340Z","level":"INFO","msg":"http","method":"GET","path":"/pages/proveedores.js","status":200,"ms":4}
+{"ts":"2026-10-21T22:04:28.343Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":8}
+{"ts":"2026-10-21T22:04:28.353Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":0}
+{"ts":"2026-10-21T22:04:28.357Z","level":"INFO","msg":"http","method":"GET","path":"/api/proveedores","status":200,"ms":2}
+{"ts":"2026-10-21T22:14:14.347Z","level":"INFO","msg":"http","method":"GET","path":"/proveedores.html","status":200,"ms":5}
+{"ts":"2026-10-21T22:14:14.435Z","level":"INFO","msg":"http","method":"GET","path":"/app.css","status":200,"ms":6}
+{"ts":"2026-10-21T22:14:14.445Z","level":"INFO","msg":"http","method":"GET","path":"/app.js","status":200,"ms":5}
+{"ts":"2026-10-21T22:14:14.468Z","level":"INFO","msg":"http","method":"GET","path":"/pages/proveedores.js","status":200,"ms":29}
+{"ts":"2026-10-21T22:14:14.506Z","level":"INFO","msg":"http","method":"GET","path":"/api/auth/me","status":200,"ms":10}
+{"ts":"2026-10-21T22:14:14.541Z","level":"INFO","msg":"http","method":"GET","path":"/api/proveedores","status":200,"ms":7}
+{"ts":"2026-10-21T22:14:14.741Z","level":"INFO","msg":"http","method":"GET","path":"/favicon.svg","status":200,"ms":5}
