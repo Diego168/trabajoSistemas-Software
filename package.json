@@ -1,0 +1,16 @@
+{
+  "name": "sistema-gestion-artesanias-legado",
+  "version": "3.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test \"tests/**/*.test.js\"",
+    "restaurar-bd": "node scripts/restaurar-bd.js",
+    "hooks": "git config core.hooksPath .githooks",
+    "docs:inventario": "node scripts/inventario.js",
+    "docs:diccionario": "node scripts/diccionario-datos.js documentacion/05-diccionario/diccionario_datos.md"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
