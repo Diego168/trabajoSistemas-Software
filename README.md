@@ -20,7 +20,7 @@ Ver [CONTRIBUTING.md](CONTRIBUTING.md): ramas, convención de commits, hooks, re
 Historial de versiones en [CHANGELOG.md](CHANGELOG.md).
 
 ## Carpetas
-`src/` backend por capas · `public/` frontend · `tests/` pruebas · `data/` respaldo y modelo físico · `docs/` evidencias · `scripts/` utilidades.
+`src/` backend · `public/` frontend · `tests/` pruebas · `data/` respaldo y modelo físico · `docs/` evidencias · `scripts/` utilidades.
 
 > Nota del colaborador: usar Node 22 o superior.
 # trabajoSistemas-Software
