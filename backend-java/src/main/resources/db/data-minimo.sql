@@ -1,0 +1,22 @@
+-- Datos iniciales de demostración (los mismos de la versión Node).
+INSERT INTO proveedor (id_proveedor,nombre,contacto,tipo_insumo) VALUES (1,'Arcillas del Sur E.I.R.L.','944 123 456','Arcilla');
+INSERT INTO proveedor (id_proveedor,nombre,contacto,tipo_insumo) VALUES (2,'Maderas Andinas S.A.C.','955 234 567','Madera');
+INSERT INTO proveedor (id_proveedor,nombre,contacto,tipo_insumo) VALUES (3,'Hilos y Fibras Cusco','966 345 678','Lana/Hilo');
+INSERT INTO taller (id_taller,nombre,tecnica) VALUES (1,'Taller de Cerámica','Alfarería y cerámica');
+INSERT INTO taller (id_taller,nombre,tecnica) VALUES (2,'Taller de Ebanistería','Tallado en madera');
+INSERT INTO taller (id_taller,nombre,tecnica) VALUES (3,'Taller de Tejidos','Hilados y tejidos');
+INSERT INTO artesano (id_artesano,nombre,especialidad,id_taller) VALUES (1,'María Quispe','Ceramista',1);
+INSERT INTO artesano (id_artesano,nombre,especialidad,id_taller) VALUES (2,'Pedro Huamán','Ebanista',2);
+INSERT INTO artesano (id_artesano,nombre,especialidad,id_taller) VALUES (3,'Rosa Mamani','Tejedora',3);
+INSERT INTO insumo (id_insumo,nombre,categoria,unidad,stock,stock_minimo,id_taller,id_proveedor) VALUES (1,'Arcilla roja','Materia prima','kg',120,30,1,1);
+INSERT INTO insumo (id_insumo,nombre,categoria,unidad,stock,stock_minimo,id_taller,id_proveedor) VALUES (2,'Madera de cedro','Materia prima','pza',15,20,2,2);
+INSERT INTO insumo (id_insumo,nombre,categoria,unidad,stock,stock_minimo,id_taller,id_proveedor) VALUES (3,'Lana de alpaca','Materia prima','kg',40,15,3,3);
+INSERT INTO pieza (id_pieza,codigo,nombre,tecnica,id_taller,precio,estado) VALUES (1,'PZ-001','Jarrón Sol Andino','Cerámica',1,180,'DISPONIBLE');
+INSERT INTO pieza (id_pieza,codigo,nombre,tecnica,id_taller,precio,estado) VALUES (2,'PZ-002','Banco de cedro tallado','Ebanistería',2,320,'EN_PRODUCCION');
+INSERT INTO pieza (id_pieza,codigo,nombre,tecnica,id_taller,precio,estado) VALUES (3,'PZ-003','Poncho de alpaca','Tejido',3,250,'DISPONIBLE');
+INSERT INTO produccion_pieza (id_produccion,id_pieza,id_artesano,etapa,fecha_inicio) VALUES (1,2,2,'TALLADO','2026-08-20');
+INSERT INTO cliente (id_cliente,nombre,documento,tipo,telefono,puntos_fidelizacion) VALUES (1,'María Quispe Torres','45678912','COLECCIONISTA','987654321',980);
+INSERT INTO cliente (id_cliente,nombre,documento,tipo,telefono,puntos_fidelizacion) VALUES (2,'Decoraciones Lima S.A.C.','20601234567','MAYORISTA','987000111',0);
+INSERT INTO venta (id_venta,id_cliente,fecha,total,canal) VALUES (1,1,'2026-08-28 10:15:00',180,'TIENDA');
+INSERT INTO venta_detalle (id_detalle,id_venta,id_pieza,cantidad,precio) VALUES (1,1,1,1,180);
+INSERT INTO encargo (id_encargo,id_cliente,id_taller,id_artesano,descripcion,fecha_entrega,estado) VALUES (1,1,2,2,'Juego de comedor en madera de cedro','2026-10-15','EN_PRODUCCION');

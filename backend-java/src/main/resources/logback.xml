@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configuración de Logback.
+     Variables de entorno: LOG_DIR (carpeta, por defecto "logs") y LOG_LEVEL (DEBUG, INFO, WARN, ERROR; por defecto INFO).
+     Cada línea es un JSON completo armado por EventLogger (con los datos sensibles ya ocultos). -->
+<configuration>
+  <property name="LOG_DIR"   value="${LOG_DIR:-logs}"/>
+  <property name="LOG_LEVEL" value="${LOG_LEVEL:-INFO}"/>
+
+  <appender name="CONSOLA" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder><pattern>%msg%n</pattern></encoder>
+  </appender>
+
+  <!-- Un archivo por día: app-AAAA-MM-DD.log, se conservan 30 días -->
+  <appender name="ARCHIVO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${LOG_DIR}/app.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>${LOG_DIR}/app-%d{yyyy-MM-dd}.log</fileNamePattern>
+      <maxHistory>30</maxHistory>
+    </rollingPolicy>
+    <encoder><charset>UTF-8</charset><pattern>%msg%n</pattern></encoder>
+  </appender>
+
+  <!-- Las bibliotecas externas solo informan de advertencias -->
+  <logger name="org.apache" level="WARN"/>
+  <logger name="com.zaxxer" level="WARN"/>
+
+  <root level="${LOG_LEVEL}">
+    <appender-ref ref="CONSOLA"/>
+    <appender-ref ref="ARCHIVO"/>
+  </root>
+</configuration>

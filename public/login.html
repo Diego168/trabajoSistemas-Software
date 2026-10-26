@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iniciar sesión · Artesanías Legado</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="app.css">
+</head>
+<body class="login-page">
+<main class="login-card" aria-labelledby="t">
+  <div class="login-brand"><b>Artesanías Legado</b><span>Gestión de talleres y tienda</span></div>
+  <h1 id="t">Iniciar sesión</h1>
+  <p class="hint">Ingresa con tu usuario para continuar.</p>
+  <form id="form" novalidate>
+    <label>Usuario<input id="usuario" name="usuario" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="30" required autofocus></label>
+    <label>Contraseña
+      <span class="pwd"><input id="clave" name="clave" type="password" autocomplete="current-password" maxlength="100" required>
+      <button type="button" class="btn sm" id="ver" aria-pressed="false">Mostrar</button></span>
+    </label>
+    <div class="form-error" id="error" role="alert"></div>
+    <button class="btn primary" id="entrar" type="submit">Entrar</button>
+  </form>
+</main>
+<script src="app.js"></script>
+<script src="pages/login.js"></script>
+</body>
+</html>
